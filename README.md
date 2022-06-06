@@ -12,11 +12,20 @@ Logistic regression modles are used to analyze historical borrower data in order
 * **anaconda** - A python framework consisting of several tools used in financial analysis, such as Pandas and Jupyter Lab.
 * **hvplot** - A set of Python visualization tools used to create compelling, and interactive visualizations.  
 * **sklearn** - An open-source Python library offers algorithms and models for building machine learning applications.
-
+* **imbalance-learn** - a python library ...
+* **PyDotPlus** - a python library ...
+PyDotPlus
 ---
 
 ## Installation Guide
-
+### imbalance-learn
+```
+conda install -c conda-forge imbalanced-learn
+```
+### imbalance-learn
+```
+conda install -c conda-forge pydotplus
+```
 TBD ...
 
 ### Start Jupyter Lab
