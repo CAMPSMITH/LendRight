@@ -1,7 +1,7 @@
 # LendRight
 
-A machine learning model that assesses credit worthiness of peer-to-peer borrowers. 
-Logistic regression modles are used to analyze historical borrower data in order to develop a model that can predict loan health and loan risk.
+A predictive machine learning model that assesses credit worthiness of peer-to-peer borrowers. 
+Logistic regression models are used to analyze historical borrower data in order to develop a model that can accurately predict loan risk.
 
 ---
 
@@ -31,6 +31,7 @@ To evauate the effectiveness of each model, a confusion matrix, model accuracy s
 
 * Machine Learning Model 1 - original dataset with significant class imbalance:
   * **Accuracy:** 0.952
+
   | Class | Precision | Recall |
   |-------|-----------|--------|
   |   0   |  1.00     |  0.99  |
@@ -38,6 +39,7 @@ To evauate the effectiveness of each model, a confusion matrix, model accuracy s
 
 * Machine Learning Model 2 - dataset with random oversampling:
   * **Accuracy:** 0.9937
+
   | Class | Precision | Recall |
   |-------|-----------|--------|
   |   0   |  1.00     |  1.00  |
